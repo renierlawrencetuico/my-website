@@ -12,8 +12,9 @@ import mysql from "./assets/mysql.svg"
 import postgres from "./assets/postgresql.svg"
 import linux from  "./assets/linux.svg"
 import windows from "./assets/windows.svg"
-import vs from "./assets/vs.png";
-import unity from "./assets/unity.png";
+import vs from "./assets/vs.svg";
+import unity from "./assets/unity.svg";
+import cSharp from "./assets/c-sharp.svg";
 
 function AboutMe(){
     return(
@@ -30,6 +31,7 @@ function AboutMe(){
                     <li><img src={javaScript} alt="Javascript" className="w-15 transition-transform duration-300 bounce-animation delay-2" data-aos="fade-right"/></li>
                     <li><img src={python} alt="Python" className="w-15 transition-transform duration-300 bounce-animation delay-3" data-aos="fade-right"/></li>
                     <li><img src={c} alt="C" className="w-15 transition-transform duration-300 bounce-animation delay-4" data-aos="fade-right"/></li>
+                    <li><img src={cSharp} alt="C" className="w-15 transition-transform duration-300 bounce-animation delay-4" data-aos="fade-right"/></li>
                 </ul>
                 <span className="font-semibold text-lg" data-aos="fade-up">Tools: </span>
                 <ul className="flex items-center gap-5">
