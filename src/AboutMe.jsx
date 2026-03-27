@@ -15,6 +15,8 @@ import windows from "./assets/windows.svg"
 import vs from "./assets/vs.svg";
 import unity from "./assets/unity.svg";
 import cSharp from "./assets/c-sharp.svg";
+import cPlus from "./assets/c-plus.svg";
+import java from "./assets/java.svg";
 
 function AboutMe(){
     return(
@@ -25,16 +27,18 @@ function AboutMe(){
                 <p data-aos="fade-up" data-aos-delay="250">I’m Renier Lawrence B. Tuico, a Software Developer I enjoy building projects that challenge me to learn new skills!</p>
                 <h3 className="font-semibold text-xl" data-aos="fade-up">Skills</h3>
                 <span className="font-semibold text-lg" data-aos="fade-up">Programming Languages: </span>
-                <ul className="flex gap-4 items-center">
-                    <li><img src={html} alt="HTML" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
-                    <li><img src={css} alt="CSS" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
-                    <li><img src={javaScript} alt="Javascript" className="w-15 transition-transform duration-300 bounce-animation delay-2" data-aos="fade-right"/></li>
-                    <li><img src={python} alt="Python" className="w-15 transition-transform duration-300 bounce-animation delay-3" data-aos="fade-right"/></li>
-                    <li><img src={c} alt="C" className="w-15 transition-transform duration-300 bounce-animation delay-4" data-aos="fade-right"/></li>
-                    <li><img src={cSharp} alt="C" className="w-15 transition-transform duration-300 bounce-animation delay-4" data-aos="fade-right"/></li>
+                <ul className="flex gap-4 items-center flex-wrap">
+                    <li><img src={java} alt="HTML" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
+                    <li><img src={cSharp} alt="C" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
+                    <li><img src={cPlus} alt="C" className="w-15 transition-transform duration-300 bounce-animation delay-2" data-aos="fade-right"/></li>
+                    <li><img src={javaScript} alt="Javascript" className="w-15 transition-transform duration-300 bounce-animation delay-3" data-aos="fade-right"/></li>
+                    <li><img src={python} alt="Python" className="w-15 transition-transform duration-300 bounce-animation delay-4" data-aos="fade-right"/></li>
+                    <li><img src={html} alt="HTML" className="w-15 transition-transform duration-300 bounce-animation delay-5" data-aos="fade-right"/></li>
+                    <li><img src={css} alt="CSS" className="w-15 transition-transform duration-300 bounce-animation delay-6" data-aos="fade-right"/></li>
+                    <li><img src={c} alt="C" className="w-15 transition-transform duration-300 bounce-animation delay-7" data-aos="fade-right"/></li>
                 </ul>
                 <span className="font-semibold text-lg" data-aos="fade-up">Tools: </span>
-                <ul className="flex items-center gap-5">
+                <ul className="flex items-center gap-5 flex-wrap">
                     <li><img src={vsCode} alt="VScode" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
                     <li><img src={git} alt="Git" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
                     <li><img src={github} alt="Github" className="w-15 transition-transform duration-300 bounce-animation delay-2 git-hub" data-aos="fade-right"/></li>
@@ -42,17 +46,17 @@ function AboutMe(){
                     <li><img src={unity} alt="Github" className="w-15 transition-transform duration-300 bounce-animation delay-4" data-aos="fade-right"/></li>
                 </ul>
                 <span className="font-semibold text-lg" data-aos="fade-up">Frameworks: </span>
-                <ul className="flex items-center gap-5">
+                <ul className="flex items-center gap-5 flex-wrap">
                     <li><img src={react} alt="React" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
                     <li><img src={tailWind} alt="Tailwind CSS" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
                 </ul>
                 <span className="font-semibold text-lg" data-aos="fade-up">Databases: </span>
-                <ul className="flex items-center gap-5">
+                <ul className="flex items-center gap-5 flex-wrap">
                     <li><img src={mysql} alt="React" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
                     <li><img src={postgres} alt="Tailwind CSS" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
                 </ul>
                 <span className="font-semibold text-lg" data-aos="fade-up">Operating Systems: </span>
-                <ul className="flex items-center gap-5">
+                <ul className="flex items-center gap-5 flex-wrap">
                     <li><img src={linux} alt="React" className="w-15 transition-transform duration-300 bounce-animation delay-0" data-aos="fade-right"/></li>
                     <li><img src={windows} alt="Tailwind CSS" className="w-15 transition-transform duration-300 bounce-animation delay-1" data-aos="fade-right"/></li>
                 </ul>
